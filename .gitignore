@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+test_db/
+chroma_db/
+rag-app/qdrant_db/
+.env
