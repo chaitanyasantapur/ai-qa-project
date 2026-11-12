@@ -3,7 +3,7 @@
     "retrieval_rate": 1.0,
     "answer_rate": 1.0,
     "refusal_rate": 1.0,
-    "median_latency_s": 7.8
+    "median_latency_s": 8.9
   },
   "results": [
     {
@@ -11,7 +11,7 @@
       "should_refuse": false,
       "retrieval_ok": true,
       "answer_ok": true,
-      "latency_s": 138.0,
+      "latency_s": 60.0,
       "answer": "Regression testing is re-runs existing tests after a change to make sure nothing broke."
     },
     {
@@ -19,7 +19,7 @@
       "should_refuse": false,
       "retrieval_ok": true,
       "answer_ok": true,
-      "latency_s": 7.3,
+      "latency_s": 5.0,
       "answer": "A flaky test is a test that passes and fails without any changes to the code, reducing trust in the test suite and requiring it to be fixed or removed quickly."
     },
     {
@@ -27,7 +27,7 @@
       "should_refuse": false,
       "retrieval_ok": true,
       "answer_ok": true,
-      "latency_s": 12.2,
+      "latency_s": 19.3,
       "answer": "The test pyramid recommends many fast unit tests, fewer integration tests, and very few slow UI tests."
     },
     {
@@ -35,7 +35,7 @@
       "should_refuse": false,
       "retrieval_ok": true,
       "answer_ok": true,
-      "latency_s": 7.1,
+      "latency_s": 6.3,
       "answer": "Playwright supports Chromium, Firefox, and WebKit."
     },
     {
@@ -43,7 +43,7 @@
       "should_refuse": false,
       "retrieval_ok": true,
       "answer_ok": true,
-      "latency_s": 12.2,
+      "latency_s": 14.0,
       "answer": "Page objects are used to keep UI selectors in one place, making tests easier to maintain."
     },
     {
@@ -51,7 +51,7 @@
       "should_refuse": false,
       "retrieval_ok": true,
       "answer_ok": true,
-      "latency_s": 16.0,
+      "latency_s": 17.5,
       "answer": "Contract testing verifies that a consumer and a provider agree on the shape of requests and responses."
     },
     {
@@ -59,7 +59,7 @@
       "should_refuse": false,
       "retrieval_ok": true,
       "answer_ok": true,
-      "latency_s": 4.7,
+      "latency_s": 7.2,
       "answer": "Good API tests should cover happy paths, validation errors, authentication failures, and rate limits."
     },
     {
@@ -67,7 +67,7 @@
       "should_refuse": false,
       "retrieval_ok": true,
       "answer_ok": true,
-      "latency_s": 11.9,
+      "latency_s": 12.2,
       "answer": "In RAG evaluation, faithfulness measures whether the answer is supported by the retrieved context."
     },
     {
@@ -75,7 +75,7 @@
       "should_refuse": false,
       "retrieval_ok": true,
       "answer_ok": true,
-      "latency_s": 7.8,
+      "latency_s": 13.8,
       "answer": "A golden dataset is a fixed set of questions with expected answers used to catch regressions when prompts or models change."
     },
     {
@@ -83,7 +83,7 @@
       "should_refuse": false,
       "retrieval_ok": true,
       "answer_ok": true,
-      "latency_s": 6.7,
+      "latency_s": 8.9,
       "answer": "Hallucination is when the model states facts that are not in the context."
     },
     {
@@ -91,7 +91,7 @@
       "should_refuse": false,
       "retrieval_ok": true,
       "answer_ok": true,
-      "latency_s": 11.2,
+      "latency_s": 18.1,
       "answer": "Flaky tests, which pass and fail without code changes, reduce trust in the suite and should be fixed or removed quickly."
     },
     {
@@ -99,7 +99,7 @@
       "should_refuse": false,
       "retrieval_ok": true,
       "answer_ok": true,
-      "latency_s": 7.8,
+      "latency_s": 9.0,
       "answer": "Contract testing with a tool like Pact verifies that a consumer and a provider agree on the shape of requests and responses."
     },
     {
@@ -107,7 +107,7 @@
       "should_refuse": false,
       "retrieval_ok": true,
       "answer_ok": true,
-      "latency_s": 15.5,
+      "latency_s": 22.9,
       "answer": "Testing an LLM app is harder than normal software testing because the outputs of LLM applications are not deterministic, meaning the same input can produce different outputs. This makes it challenging to evaluate the quality of the model's responses, as the results are not consistent and cannot be relied upon."
     },
     {
@@ -115,7 +115,7 @@
       "should_refuse": false,
       "retrieval_ok": true,
       "answer_ok": true,
-      "latency_s": 10.6,
+      "latency_s": 8.8,
       "answer": "An LLM judge should be validated against human judgement, specifically using a golden dataset to catch regressions when prompts or models change, and should be scored using a second model, such as LLM-as-judge."
     },
     {
@@ -123,7 +123,7 @@
       "should_refuse": false,
       "retrieval_ok": true,
       "answer_ok": true,
-      "latency_s": 3.4,
+      "latency_s": 2.9,
       "answer": "A good test suite is characterized as fast, reliable, and easy to maintain."
     },
     {
@@ -131,7 +131,7 @@
       "should_refuse": true,
       "retrieval_ok": null,
       "answer_ok": true,
-      "latency_s": 6.6,
+      "latency_s": 6.3,
       "answer": "I don't know based on the provided documents."
     },
     {
@@ -139,7 +139,7 @@
       "should_refuse": true,
       "retrieval_ok": null,
       "answer_ok": true,
-      "latency_s": 5.7,
+      "latency_s": 8.9,
       "answer": "I don't know based on the provided documents."
     },
     {
@@ -147,7 +147,7 @@
       "should_refuse": true,
       "retrieval_ok": null,
       "answer_ok": true,
-      "latency_s": 2.5,
+      "latency_s": 4.1,
       "answer": "I don't know based on the provided documents."
     },
     {
@@ -155,7 +155,7 @@
       "should_refuse": true,
       "retrieval_ok": null,
       "answer_ok": true,
-      "latency_s": 2.3,
+      "latency_s": 3.4,
       "answer": "I don't know based on the provided documents."
     },
     {
@@ -163,7 +163,7 @@
       "should_refuse": true,
       "retrieval_ok": null,
       "answer_ok": true,
-      "latency_s": 6.2,
+      "latency_s": 6.6,
       "answer": "I don't know based on the provided documents."
     }
   ]
